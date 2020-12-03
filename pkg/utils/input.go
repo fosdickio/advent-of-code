@@ -1,3 +1,6 @@
+/*
+Package utils/input implements a simple library for handling reading input from external sources.
+*/
 package utils
 
 import (
@@ -7,6 +10,8 @@ import (
 	"strings"
 )
 
+// ReadIntInputFileIntoSlice reads input from an external file into a slice.  The input files contains a newline
+// separated list of integer data.
 func ReadIntInputFileIntoSlice(filePath string) (inputData []int, err error) {
 	content, err := ioutil.ReadFile(filePath)
 	if err != nil {
