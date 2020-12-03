@@ -12,7 +12,7 @@ This repository contains solutions in Go for the [Advent of Code 2020 challenge]
 - Go (1.15+)
 
 ## Instructions
-You can then run executables for each of the individual days from the `cmd` directory.  See below for an example.
+Start by cloning the repository.  You can then run executables for each of the individual days from the `cmd` directory.  See below for an example.
 
 ```go
 go run cmd/day01/day01.go
