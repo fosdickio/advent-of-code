@@ -17,6 +17,7 @@ func main() {
 		log.Fatal(err)
 		os.Exit(0)
 	}
+
 	fmt.Printf("Part 1 solution: %v\n", utils.TwoSum(input, sumTarget))
 	fmt.Printf("Part 2 solution: %v\n", utils.ThreeSum(input, sumTarget))
 }

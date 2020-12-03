@@ -1,6 +1,4 @@
-# Day 1: [Report Repair](https://adventofcode.com/2020/day/2)
-
-## Part 1
+# Day 1: [Report Repair](https://adventofcode.com/2020/day/1)
 
 After saving Christmas five years in a row, you've decided to take a vacation at a nice resort on a tropical island. Surely, Christmas will go on without you.
 
@@ -9,6 +7,8 @@ The tropical island has its own currency and is entirely cash-only. The gold coi
 To save your vacation, you need to get all fifty stars by December 25th.
 
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
+
+## Part 1
 
 Before you leave, the Elves in accounting just need you to fix your expense report (your puzzle input); apparently, something isn't quite adding up.
 
