@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func readIntInputFileIntoSlice(filePath string) (inputData []int, err error) {
+func ReadIntInputFileIntoSlice(filePath string) (inputData []int, err error) {
 	content, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		log.Fatal(err)
