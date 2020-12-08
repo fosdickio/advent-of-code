@@ -31,3 +31,14 @@ func ReadIntInputFileIntoSlice(filePath string) (inputData []int, err error) {
 
 	return data, nil
 }
+
+// ReadInputFileIntoGrid reads input from an external file into a string slice.  The input files contains a newline
+// separated list of string data.
+func ReadInputFileIntoGrid(filePath string) (inputGrid []string, err error) {
+	input, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		log.Fatal(err)
+		return nil, err
+	}
+	return strings.Fields(string(input)), nil
+}
